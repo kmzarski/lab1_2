@@ -4,12 +4,12 @@ import pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.ClientData;
 
 import java.util.List;
 
-public class RequiredDataInfo {
+public class InvoiceDataInfo {
 
     private ClientData client;
     private List<RequestItem> items;
 
-    public RequiredDataInfo(ClientData client, List<RequestItem> items) {
+    public InvoiceDataInfo(ClientData client, List<RequestItem> items) {
         this.client = client;
         this.items = items;
     }
